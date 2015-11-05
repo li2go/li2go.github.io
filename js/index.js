@@ -60,135 +60,111 @@
 //		return;
 //	}
 //}
+//声明一个变量空间
+($(window).ready(function(){
+	$('.article').fadeOut();
+	$('.about').fadeOut();
+	$('.works').fadeOut();
+	
+}))
 
 var myweb={};
+//初始化
 myweb={"about":{
-	"show":null
-	
-	
+	"show":null	
 },
+"loader":{
+	"tloading":null,
+	"tstop":null
+},
+"indexAnm":null,
+"togglelight":null,
 "works":0,
-"articl":{"getlist":null},
-"timeline":0
-
-
-
+"articl":{"getlist":null,"orderbytime":null},
+"timeline":null
+};
+//angular.js调用
+var app;
+myweb.articl.show=function(el){
+var $el=$(el);
+$(document.body).animate({scrollTop:$(".article").offset().top}, 2000 ); 
+$('.article').fadeIn("slow");};
+ //$el.removeAttr("onclick");
+myweb.togglelight=function(){
+	myweb.loader.tloading();
+	var $ground=$("div.light.ground"),
+	lighttrue=$ground.attr("active");
+	if(lighttrue){
+		$ground.css("backgroundColor","black");
+		lighttrue=$ground.removeAttr("active");
+//		$('div.side-menu ul li').css ("hover",{"backgroundColor": "white","borderRadius":"2px"});
+		$('div.article').css("color","#DCDCDC");
+	}else{
+		$ground.css("backgroundColor","white");
+		lighttrue=$ground.attr("active","true");
+	}
+	myweb.loader.tstop();
+};
+myweb.indexAnm=function(){
+	
+	var c=$("#indexCanvas")[0],
+	cxt=c.getContext("2d");
+	cxt.fillStyle="#FF0000";
+	cxt.fillRect(0,0,150,75);
+};
+myweb.loader.tloading=function(){
+	$(".loader").css("display","block")
+	$(".mask").css("display","block")
 
 };
-
-var app = angular.module('Myapp', []);
-app.controller('arcCtrl', function($scope, $http) {
-    $http.get("/articl/list.json")
-    .success(function(response) {$scope.lists = response.list;});
-});
-
-
-
-myweb.articl.getList=function(){
-		var ajaxCallback=function(xhr){
-			console.log(xhr.responseTEXT);
-			var alist=JSON.parse(xhr.responseText);
-			var app;
-			$(".articl").attr("ng-app","Myarticle");
-			$(".articl").attr("ng-controller","articleCtrl");
-			$(".articleS").attr("ng-repeat","x in list");
-			app = angular.module("Myarticle", []);
-			app.controller('articlCtrl', function($scope) {
-  			  	$scope.list = alist.list;
-			});
-			$(".articleS").text="{{x.title}}"
-			$("li a")[1].href="#articls";
-			$(".articl").fadeIn();
-		};
-	$.ajax({
-		type:"get",
-		cache:true,
-		url:"/articl/list.json",
-		complete:ajaxCallback,
-		async:true,
-		dateType:"JSON"
-	});
-}
+myweb.loader.tstop=function(){
+	$(".loader").css("display","none")
+	$(".mask").css("display","none")
+};
 myweb.about.show=function(){
-	$("#about").fadeIn("slow");	
+	myweb.loader.tloading();
+	$(".about").css("display","block");
+	myweb.loader.tstop();
+	$(".about").fadeIn("slow");	
+
 };
+ app= angular.module('Myapp', []);
+	app.controller('arcCtrl', function($scope, $http, $sce) {
+	myweb.loader.tloading();
+    $http.get("/articl/list.json").success(function(response) {$scope.lists = response.list;});
+    myweb.loader.tstop();
+});
+//myweb.articl.orderbytime=function(){
+//	//<div class="articleS" ng-repeat="x in lists">
+//$(".articleS").attr("ng-repeat")="x in lists | orderBy : '-time'";
+//	};
+//	document.creat"<div>{{ childrenArray | orderBy : 'age' }}</div>"
+	
+//myweb.articl.getList=function(){
+//		var ajaxCallback=function(xhr){
+//			console.log(xhr.responseTEXT);
+//			var alist=JSON.parse(xhr.responseText);
+//			var app;
+//			$(".articl").attr("ng-app","Myarticle");
+//			$(".articl").attr("ng-controller","articleCtrl");
+//			$(".articleS").attr("ng-repeat","x in list");
+//			app = angular.module("Myarticle", []);
+//			app.controller('articlCtrl', function($scope) {
+//			  	$scope.list = alist.list;
+//			});
+//			$(".articleS").text="{{x.title}}"
+//			$("li a")[1].href="#articls";
+//			$(".articl").fadeIn();
+//		};
+//	$.ajax({
+//		type:"get",
+//		cache:true,
+//		url:"/articl/list.json",
+//		complete:ajaxCallback,
+//		async:true,
+//		dateType:"JSON"
+//	});
+////}
+
 ////////////////
 
-//var alist={};
-//alist={
-//	total:0,
-//	lastpost:"2012-12-14",
-//	list:[{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		},
-//		{title:"jbhd",
-//			time:"2014-3-4",
-//			athor:"li2go",
-//			loc:"Beijing.",
-//			description:"asjkasjakmkzmxowkomlsaxmzlalskoqslskalkzmx,masoqls,zmkasklakslamxmz,alskalszmx,,,,msasaslslakslaskasas"
-//		}
-//	]
-//	
-//};
-//
-//alist.total=alist.list.length;
-//
-//
-//

@@ -9,71 +9,80 @@
 	</head>
 
 	<body>
+		<div class="mask"></div>
+		<div class="light ground" active="true">
+			<div class="loader"></div>
+			<div class="index" id="index">
+				<canvas id="indexCanvas"></canvas>
+			</div>
+			<div class="header">
+				<div class="lightswitch"><a href="javascript:void(0)" onclick="myweb.togglelight()">kai</a></div>
+			</div>
 
-		<div class="header"></div>
-		<div class="side-menu">
-			<ul>
-				<li><a href="javascript:void(0);">Index</a></li>
-				<li><a href="#article" onclick="myweb.articl.getList()">Articl</a></li>
-				<li><a href="#works">Works</a></li>
-				<li><a href="javascript:void(0);" onclick="myweb.about.show();">About</a></li>
-				<li><a href="#timeline">TimeLine</a></li>
-				<li><a href="/resume">Resume</a></li>
-			</ul>
-		</div>
-		<div class="works" id="works">
-			<h2 id="works">Works</h2>
-			<hr>
-				<div class="worklist">	
+			<div class="side-menu">
+				<ul>
+					<li><a href="/">Index</a></li>
+					<li><a href="#article" onclick="myweb.articl.show(this)">Article</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#about" onclick="myweb.about.show();">About</a></li>
+					<li><a href="#timeline">TimeLine</a></li>
+					<li><a href="/resume">Resume</a></li>
+				</ul>
+			</div>
+			<div class="works" id="works">
+				<h2 id="works">Works</h2>
+				<hr>
+				<div class="worklist">
 				</div>
-		</div>
-		<!--
+			</div>
+			<!--
         	作者：admin@diaofly.com
         	时间：2015-11-05
         	描述：
         -->
-	<!--
+			<!--
     	作者：admin@diaofly.com
     	时间：2015-11-05
     	描述：<div class="articl" ng-app="arcitl" ng-controller="Myarticle">
     -->
-			<div class="articl" ng-app="Myapp" ng-controller="arcCtrl">
-			<h2 id="articl">Article</h2>
-			 <!--<li ng-repeat="x in lists">
+			<div class="article" ng-app="Myapp" ng-controller="arcCtrl">
+				<h2 id="article">Article</h2>
+				<!--<li ng-repeat="x in lists">
    		 {{ x.loc + ', ' + x.title }}
   		</li>-->
-			<hr>
-				<div class="articllist" ng-repeat="x in lists">
-					
-					<div class="articleS">
-					<span class="title">{{x.description}} {{x.title}}</span>
-					<span class="athor"></athor>
-					<span class="loc"></span>
-					<span class="time"></span>
-					<article></article>
+				<hr>
+				<div class="articllist">
+					<div class="articleS" ng-repeat="x in lists | orderBy : '-time'">
+						<a class="title" href="{{x.url}}">{{x.title}}</a>
+						<a class="belong" href="">{{x.belong}}</a>
+						<a class="athor" href="#index">{{x.athor}}</a>
+						<a class="loc">{{x.loc}}</a>
+						<a class="time">{{x.time}}</a>
+						<div class="description">{{x.description}}... <a href="{{x.url}}">more.</a></div>
+						<article></article>
+					</div>
 				</div>
-		</div>
-		<div class="about" id="about">
-		<h2 id="about">About</h2>
-		<div class="profile">
-			<div class="myphoto"><img class="myphoto" src="img/myphoto.jpg"></img><h3>Lan hao</h3></div>
-			<section class="detail">
+			</div>
+			<div class="about" id="about">
+					<h2 id="about">About</h2>
+					<div class="profile">
+						<div class="myphoto"><img class="myphoto" src="img/myphoto.jpg"></img>
+							<h3>Lan hao</h3></div>
+						<section class="detail">
+							<hr/>
+							<h4>Web Front-end Engineer</h4>
+							<hr />
+							<p>Internet enthusiasts, computer science enthusiasts, web front end developers</p>
+							<hr />
+							<address>Chongwenmen.Beijing.China.</address>
+						</section>
+					</div>
+				</div>
 				
-				<hr/>
-				<h4>Web Front-end Engineer</h4>
-				<hr />
-				<p>网络爱好者，计算机科学爱好者，网络前端开发爱好者</p>
-				<hr />
-				<address>Chongwenmen.Beijing.China.</address>
-			</section>
-		</div>
-		</div>
-	
-	
-		<script src="/js/jquery-1.9.1.min.js"></script>
-		<script src="/js/angular.min.js"></script>
-		<script src="/js/index.js"></script>
-		
+			<script src="/js/jquery-1.9.1.min.js"></script>
+			<script src="/js/angular.min.js"></script>
+			<script src="/js/index.js"></script>
+
 	</body>
 
 </html>

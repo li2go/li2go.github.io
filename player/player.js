@@ -52,6 +52,7 @@ myplayer.init = function(strcon, getedjson) {
 		url: getedjson,
 		async: true,
 		success: function(respone) {
+				console.log(respone);
 			var div = document.createElement("div");
 			$(div).attr("class", "myplayer");
 			$(myplayer.container).append(div);

@@ -194,34 +194,7 @@ $("audio").bind("ended", function() {
 
 });
 //初始化
-<<<<<<< HEAD
-myplayer.init("div.playerContainer", "list.json");
-=======
+
 myplayer.init("div.playerContainer","list.json");
 
-///////
-//myplayer.loadcss={
-//var $single=$(".single"),
-//	$
 
-//debug
-
-
-
-//|"正在加载！";
-
-//function lis(){
-//	if (!!myplayer.json){
-//		if (myplayer.json.readyState){
-//			console.log(myplayer.json.readyState);
-//		if (myplayer.json.readyState==4){
-//			
-//			gh=0
-//		}
-//		
-//			
-//		}
-//	}
-//}
-//var gh=setInterval(lis(),1);
->>>>>>> origin/master

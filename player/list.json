@@ -2,25 +2,25 @@
 		{
 			"name": "nnsn",
 			"singer": "mbewaeb",
-			"url": "source/4.mp3",
+			"url": "/player/source/4.mp3",
 			"img": "http://sdasddad",
 			"crl": "getcrl();"
 		}, {
 			"name": "jbbb232",
 			"singer": "mewaebb",
-			"url": "source/5.mp3",
+			"url": "/player/source/5.mp3",
 			"img": "http://sdasddad",
 			"crl": "dasdasdasdasdasdasdasdadada"
 		}, {
 			"name": "jbbb23323",
 			"singer": "mbb",
-			"url": "source/7.mp3",
+			"url": "/player/source/7.mp3",
 			"img": "http://sdasddad",
 			"crl": "dasdasdasdasdasdasdasdadada"
 		}, {
 			"name": "jbbb23323",
 			"singer": "mbb",
-			"url": "source/6.mp3",
+			"url": "/player/source/6.mp3",
 			"img": "http://sdasddad",
 			"crl": "dasdasdasdasdasdasdasdadada"
 		}

@@ -199,7 +199,7 @@ $("audio").bind("ended",function(){
 
 
 //初始化
-myplayer.init("div.playerContainer", "list.json");
+myplayer.init("div.playerContainer","list.json");
 
 ///////
 //myplayer.loadcss={

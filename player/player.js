@@ -52,12 +52,14 @@ myplayer.init = function(strcon, getedjson) {
 		url: getedjson,
 		async: true,
 		success: function(respone) {
-				console.log(respone);
+				console.log(respone);//2015年11月9日08:30:10，远端测试时发生bug。添加该句，发现控制台输出了对向数组。
+			//试图在json解析时，注释掉JSON.parse.
 			var div = document.createElement("div");
 			$(div).attr("class", "myplayer");
 			$(myplayer.container).append(div);
 			////////////////////////////
-			myplayer.list = JSON.parse(respone);
+		//	myplayer.list = JSON.parse(respone);
+		myplayer.list = respone;//进行一次测试！
 			var ol = document.createElement("ul"); //ul无序列表 ol有序列表
 			$(ol).attr("class", "list ol");
 			var $list = $(".list");

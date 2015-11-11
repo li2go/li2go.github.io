@@ -4,6 +4,7 @@ width: 100%;
 height: 100%;
 margin: 0px;
 padding: 0px;
+word-wrap: break-word; word-break: normal;
 }
 .header{
 	width: 100%;
@@ -13,16 +14,13 @@ padding: 0px;
 	height: 30px;
 	background-color: #FE6161;
 }
-div.light.ground{
+div.light .ground{
 	width: 100%;
 	height:100%;
 	transition-duration: 2s;
-	transform-style: background-color;
-	transform-style: background-color;
-	
-	
+	transform-style: background-color;	
 }
-	.lightswitch{
+.lightswitch{
 		position: relative
 		left:92%;
 		width:20px;
@@ -44,8 +42,12 @@ div.light.ground{
 	widows: 1000px;
 	height:400px;
 	background-color: #000000;
+	opacity:0;
 	
-	
+}
+a:hover,h2:hover{
+color: #FE6161;	
+cursor: pointer;
 }
 .side-menu {
   line-height:40px;
@@ -64,22 +66,22 @@ a:active {
 	color: #FFF100;
 }
 
+.list0 a{
+	display: inline-block;
+	
+}
 
 
 
 div.side-menu ul {
 	color: #d0c1bf;
 }
-div.side-menu ul :hover {
-	color: black;
-	text-transform: none;
-	text-decoration: underline;
-}
+
 h2.title; {
 	margin-top: 50px;
 	font-size: 30px;
 }
-div.about,div.article,div.works{
+div.index,div.about,div.article,div.works,div.timeline,div.resume{
 	width:64%;
 	height:100%;
 	margin-left: 15%;
@@ -152,6 +154,7 @@ background-color: lightcoral;
 	/* left:70%; */
 /*	position: relative;*/
 /*}*/
+
 .description{
 	margin-top: 1em;
 	display: inline-block;
@@ -159,6 +162,7 @@ background-color: lightcoral;
 	}
 
 .loader{ 
+	z-index: 55556;
 	position: fixed;
 	left:45%;
 	top:45%;
@@ -169,7 +173,8 @@ padding: 0.5em;
 width: 2em; height: 2em; 
 border-radius: 50%; background: #9EC5DF; 
 background-clip: content-box; 
-animation: load 1.5s cubic-bezier(0.04, 0.78, 0.88, 0.26) infinite
+animation: load 1.5s cubic-bezier(0.04, 0.78, 0.88, 0.26) infinite;
+display: none;
 }
 @keyframes load {  50% {
  border-top-color: #3498db;

@@ -1,0 +1,25 @@
+.d_article{
+	font-family: "copperplate gothic light";
+	
+	
+}
+.d_article .list0:hover{
+	box-sizing:border-box;
+	margin: 20px;
+	padding: 20px;
+	width:inherit;
+	background-color: rgba(74, 196, 81, 0.1);	
+	cursor: pointer;
+}
+.d_article .list0{
+	box-sizing:border-box;
+	margin: 20px;
+	padding: 20px;
+	width:inherit;
+	border-radius: 20px;
+
+}
+
+.list0 .title{
+
+}

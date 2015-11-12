@@ -1,0 +1,17 @@
+/*.timeline div#d_timeline{
+color: #334455;
+
+}*/
+li.d_time a{
+	display: inline-block;
+
+}
+
+li.d_time{
+
+border-left: solid 10px red;
+
+padding: 40px;
+
+}
+/*#FE6161*/

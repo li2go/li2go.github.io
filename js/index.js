@@ -81,6 +81,13 @@ myweb.about.show = function() {
 
 //绑定第一次加载
 $("a[name='article']").one("click",d_article.ajaxload);
+$("a[name='timeline']").one("click",function(){
+jjj=new Timeline(timeline_conf);
+jjj.ajaxload();	
+});
+
+
+
 $(".list-menu").bind("click",
 	function(event) {
 		var scrollto = "#"+event.target.name;
@@ -88,7 +95,18 @@ $(".list-menu").bind("click",
 	}
 )
 //绑定隐藏
-$("#article").bind("click",function(){$("#article").next().next().fadeToggle("normal")});
+$("#article").bind("click",function(){$("#article").next().next().slideToggle("normal")});
+$("#timeline").bind("click",function(){$("#timeline").next().next().slideToggle("normal")});
+
+// function timeline_bind(){
+// var lih2= $(".d_timeline li h2");
+// for (var i in lih2)
+// {
+// 	console.log(lih2)
+// $(lih2[i]).bind("click",function(){$(lih2[i]).parent().find("p")[i].slideToggle();})
+// }
+// }
+// timeline_bind();
 
 
 

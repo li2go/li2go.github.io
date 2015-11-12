@@ -5,6 +5,7 @@ myplayer.container = null;
 myplayer.playnow = null;
 myplayer.playingid = 0;
 myplayer.list = null; //many object in arrary
+
 myplayer.listplay = function(event) {
 	var urlstr;
 	//判断是bind事件调用的，还是传url方式
@@ -36,7 +37,7 @@ myplayer.listplay = function(event) {
 	//为文档添加一个新的audio元素 用来改变播放的曲目。
 	addnewaudioplayer(urlstr);
 	//更新myplayer对象的正在播放的序号。
-	myplayer.playingid = $nowtag.index()
+	myplayer.playingid = $nowtag.index();
 
 	//标记正在播放的音乐在list中。
 	$nowtag.css("backgroundColor", "#BFE3BD");
@@ -52,13 +53,8 @@ myplayer.init = function(strcon, getedjson) {
 		url: getedjson,
 		async: true,
 		success: function(respone) {
-<<<<<<< HEAD
-			console.log(respone);
-			
-=======
-				console.log(respone);//2015年11月9日08:30:10，远端测试时发生bug。添加该句，发现控制台输出了对向数组。
-			//试图在json解析时，注释掉JSON.parse.
->>>>>>> origin/master
+
+
 			var div = document.createElement("div");
 			$(div).attr("class", "myplayer");
 			$(myplayer.container).append(div);
@@ -107,6 +103,7 @@ myplayer.init = function(strcon, getedjson) {
 		console.log(this);
 	})
 };
+
 
 //为下载按钮绑定个事件
 $(".player-btn-download").bind("click", function() {
@@ -202,10 +199,7 @@ $("audio").bind("ended", function() {
 
 });
 //初始化
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
-myplayer.init("div.playerContainer","list.json");
+
 
 

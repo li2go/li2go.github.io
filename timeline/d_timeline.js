@@ -25,15 +25,14 @@ this.build=function(){
      var classname=this.indivclass;
      var hostdiv=this.hostdiv;
      function creatdom(i) {
-		$("<li class='" + classname+ "' id='time" + i + "'></li>").appendTo(hostdiv);
+		$("<li type='none' class='" + classname+ "' id='time" + i + "'></li>").appendTo(hostdiv);
 		}
 	for (var iii in tdata){
-		console.log("下一步构件dom")
 		creatdom(iii);
 			var one=tdata[iii];
-			$('<a>' + one.date + '</a>').appendTo("#time" + iii);
-			$('<a><h1>' + one.title + '</h1></a>').attr("id","timetile"+iii).appendTo("#time" + iii);
-			$('<p>' + one.detail + '</p>').css({"display":"none","position":"relative"}).appendTo("#time" + iii);
+			$('<div class="timeline-date">' + one.date + '</div>').appendTo("#time" + iii);
+			$('<div class="timeline-title">' + one.title + '</div>').attr("id","timetile"+iii).appendTo("#time" + iii);
+			$('<div class="timeline-detail">' + one.detail + '</div>').css({"display":"block","position":"relative"}).appendTo("#time" + iii);
 	}
 	console.log(this.titleid);
 	console.log("build ok!");
@@ -53,7 +52,7 @@ this.ajaxload=function(){
 				}, 1000)
 			}, 100)//滚动一次
 		myweb.loader.tstop();
-		$(".d_time a").bind("click",function(ent){console.log(ent.target);$(ent.target).parent().next().slideToggle(1000)});
+		//$(".d_time a").bind("click",function(ent){console.log(ent.target);$(ent.target).parent().next().slideToggle(1000)});
 	})
 };
 

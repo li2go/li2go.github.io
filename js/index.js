@@ -26,21 +26,21 @@ myweb = {
 myweb.togglelight = function() {
 	myweb.loader.tloading();
 	var $ground = $("div.light.ground"),
-		lighttrue = $ground.attr("active");
-	if (lighttrue) {
+		isLight = $ground.attr("active");
+	if (isLight) {
 		$ground.css("backgroundColor", "black");//变成黑夜模式
-		lighttrue = $ground.removeAttr("active");
+		isLight = $ground.removeAttr("active");
 		//		$('div.side-menu ul li').css ("hover",{"backgroundColor": "white","borderRadius":"2px"});
 		//$('div.article').css("color", "#DCDCDC");
 		$("body").css("color","#FFF")
 	} else {
 		$("body").css("color","#000")
 		$ground.css("backgroundColor", "white");
-		lighttrue = $ground.attr("active", "true");
+		isLight = $ground.attr("active", "true");
 	}
 	myweb.loader.tstop();
 };
-$(".lightswitch").bind("click",myweb.togglelight)
+$(".lightening").bind("click",myweb.togglelight)
 //首页canvas动画
 myweb.indexAnm = function() {
 
@@ -90,6 +90,7 @@ jjj.ajaxload();
 
 $(".list-menu").bind("click",
 	function(event) {
+		myModule.show(event.target.name)
 		var scrollto = "#"+event.target.name;
 		$(document.body).animate({scrollTop: ($(scrollto).offset().top-40)}, 1000);
 	}

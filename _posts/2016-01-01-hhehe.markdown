@@ -1,8 +1,0 @@
----
-layout: post
-title:  "this is my first pages in github page with jekyll"
-date:   2016-01-01 00:31:03 +0800
-categories: some
----
-sometimes i just say nothing to you.
-it's so cool

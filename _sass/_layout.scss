@@ -17,20 +17,11 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    text-underline: none;
 
     &,
     &:visited {
         color: $grey-color-dark;
     }
-    &:hover{
-        color: #008080;
-        text-underline: none;
-
-    }
-    &:link{
-    text-decoration: none;
-}
 }
 
 .site-nav {
@@ -109,9 +100,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 .footer-heading {

@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "react es6"
+date:   2016-02-02 01:54:25 +0800
+categories: react
+---
+
+###类（Class）
+
+{% highlight javascript linenos %}
+class Photo extends React.Component {
+  render() {
+    return <img alt={this.props.caption} src={this.props.src} />
+  }
+}
+{% endhighlight %}
+
+###属性初始化（property initializers）
+
+
+{% highlight javascript linenos %}
+
+class Video extends React.Component {
+  static defaultProps = {
+    autoPlay: false,
+    maxLoops: 10,
+  }
+  static propTypes = {
+    autoPlay: React.PropTypes.bool.isRequired,
+    maxLoops: React.PropTypes.number.isRequired,
+    posterFrameSrc: React.PropTypes.string.isRequired,
+    videoSrc: React.PropTypes.string.isRequired,
+  }
+  state = {
+    loopsRemaining: this.props.maxLoops,
+  }
+}
+
+{% endhighlight %}
+
+
+{% highlight javascript linenos %}
+import React,React.Component from 'react';
+const Component =React.Component;
+
+{% endhighlight %}
+
+{% highlight javascript linenos %}
+import React, {Component, PropTypes } from 'react';
+
+{% endhighlight %}
+
+ES7 中在构造函数（constructor）下的属性初始化操作中的this指向的是类的实例，所以初始状态（initial state）可以通过this.prop（即传入的参数）来设定。
+
+###箭头函数（Arrow function）
+
+React.createClass方法在你的组件上做了一些额外的绑定工作，以确保在组件实实例的方法内部，this指向的是组件实例自身。
+
+ES6+ 的语法定义类的时候没有采用React.createClass的方式，所以不得不手动来绑定这些方法中this的指向：
+
+{% highlight javascript linenos %}
+constructor(props) {
+    super(props);
+    // Manually bind this method to the component instance...
+    this.handleOptionsButtonClick = this.handleOptionsButtonClick.bind(this);
+  }
+{% endhighlight %}
+通过 ES6+ 的箭头函数（ Arrow functions ）和属性初始化（ property initializers ）这两个特性使得把函数的this指向绑定为组件的实例变得非常的简单：
+
+{% highlight javascript linenos %}
+
+class PostInfo extends React.Component {
+  handleOptionsButtonClick = (e) => {
+    this.setState({showOptionsModal: true});
+  }
+}
+{% endhighlight %}
+
+
+函数体内的this对象，绑定定义时所在的对象，而不是使用时所在的对象。而恰好属性初始化（ property initializers ）刚好在这个作用域内。
+
+
+###动态属性名 & 字符串模板
+
+{% highlight javascript linenos %}
+
+class Form extends React.Component {
+  onChange(inputName, e) {
+    this.setState({
+      [`${inputName}Value`]: e.target.value,
+    });
+  }
+}
+{% endhighlight %}
+
+
+
+###析构 & 扩展运算符
+
+{% highlight javascript linenos %}
+
+class AutoloadingPostsGrid extends React.Component {
+  render() {
+    var {
+      className,
+      ...others,  
+      // contains all properties of this.props except for className
+    } = this.props;
+    return (
+      <div className={className}>
+        <PostsGrid {...others} />
+        <button onClick={this.handleLoadMoreClick}>Load more</button>
+      </div>
+    );
+  }
+}
+
+{% endhighlight %}

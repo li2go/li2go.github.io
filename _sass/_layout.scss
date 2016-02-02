@@ -7,20 +7,48 @@
     min-height: 100px;
     height:300px;
     background-image:url(../img/bg1.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     // Positioning context for the mobile navigation icon
+
     position: relative;
+    transition: background-size 30s;
+    animation: magic 30s ease-in-out infinite;
+
 }
 
+@keyframes magic {
+    0%{
+        background-size:100% ;
+    }
+    20%{
+        background-size:110% ;
+
+    }
+    40%{
+        background-size:120% ;
+
+    }
+    40%{
+        background-size:130% ;
+
+    }
+    80%{
+        background-size:140% ;
+
+    }
+    100%{
+        background-size:100% ;
+
+    }
+}
 .site-title{
     color: white;
     position: absolute;
     left: 0;
     top: 0;
     text-decoration: none;
-    transform: rotate(-20deg);
-    font-size: -webkit-xxx-large;
+
     font-family: monospace;
 }
 .site-nav {
@@ -188,10 +216,10 @@
     list-style: none;
 
     > li {
-        background-color: #0CC1E7;
         border-radius: 3px;
         padding: 1rem;
-        box-shadow: #28BAE8 0 0 4px;
+        box-shadow: rgba(41, 51, 54, 0.73) 0 0 4px;
+        margin: 1rem;
     }
 }
 
@@ -226,9 +254,9 @@
 
 .post-content {
     padding: 1rem;
-    background-color: rgba(52, 197, 231, 0.66);
-    box-shadow: #039CE1 0 0 4px;
-    border-image: url(../img/bg1.png);
+    box-shadow: rgba(33, 36, 36, 0.62) 0 0 4px;
+    border-width: 20px;
+    border-radius: 6px;
     h2 {
         font-size: 32px;
 

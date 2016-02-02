@@ -2,7 +2,7 @@
 layout: post
 title: Tappable Pinch
 tagline: pinch tappable react
-category: null
+category: react
 tags: []
 published: true
 

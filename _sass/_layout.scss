@@ -4,26 +4,25 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
+    min-height: 100px;
+    height:300px;
+    background-image:url(../img/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+.site-title{
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+    transform: rotate(-20deg);
+    font-size: -webkit-xxx-large;
+    font-family: monospace;
 }
-
 .site-nav {
     float: right;
     line-height: 56px;
@@ -98,14 +97,19 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
     border-radius: 2px;
     border-top: 1px solid #e8e8e8;
-    background-color: rgb(135, 192, 238);
-
+    background-color: #1ABEE7;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 2rem;
+    transition: height 0.26s;
+    color:white;
 }
-
+.site-footer:hover{
+    height:6rem;
+}
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
@@ -184,7 +188,10 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        background-color: #0CC1E7;
+        border-radius: 3px;
+        padding: 1rem;
+        box-shadow: #28BAE8 0 0 4px;
     }
 }
 
@@ -218,8 +225,9 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
-
+    padding: 1rem;
+    background-color: rgba(52, 197, 231, 0.66);
+    box-shadow: #039CE1 0 0 4px;
     h2 {
         font-size: 32px;
 

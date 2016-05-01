@@ -1,0 +1,138 @@
+<h3 id="class">类（Class）</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td><td class="code"><pre><span class="kr">class</span> <span class="nx">Photo</span> <span class="kr">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="o">&lt;</span><span class="nx">img</span> <span class="nx">alt</span><span class="o">=</span><span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">caption</span><span class="p">}</span> <span class="nx">src</span><span class="o">=</span><span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">src</span><span class="p">}</span> <span class="sr">/</span><span class="err">&gt;
+</span>  <span class="p">}</span>
+<span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="property-initializers">属性初始化（property initializers）</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15</pre></td><td class="code"><pre><span class="kr">class</span> <span class="nx">Video</span> <span class="kr">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+  <span class="kr">static</span> <span class="nx">defaultProps</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">autoPlay</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="na">maxLoops</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+  <span class="p">}</span>
+  <span class="kr">static</span> <span class="nx">propTypes</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">autoPlay</span><span class="p">:</span> <span class="nx">React</span><span class="p">.</span><span class="nx">PropTypes</span><span class="p">.</span><span class="nx">bool</span><span class="p">.</span><span class="nx">isRequired</span><span class="p">,</span>
+    <span class="na">maxLoops</span><span class="p">:</span> <span class="nx">React</span><span class="p">.</span><span class="nx">PropTypes</span><span class="p">.</span><span class="nx">number</span><span class="p">.</span><span class="nx">isRequired</span><span class="p">,</span>
+    <span class="na">posterFrameSrc</span><span class="p">:</span> <span class="nx">React</span><span class="p">.</span><span class="nx">PropTypes</span><span class="p">.</span><span class="nx">string</span><span class="p">.</span><span class="nx">isRequired</span><span class="p">,</span>
+    <span class="na">videoSrc</span><span class="p">:</span> <span class="nx">React</span><span class="p">.</span><span class="nx">PropTypes</span><span class="p">.</span><span class="nx">string</span><span class="p">.</span><span class="nx">isRequired</span><span class="p">,</span>
+  <span class="p">}</span>
+  <span class="nx">state</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">loopsRemaining</span><span class="p">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">maxLoops</span><span class="p">,</span>
+  <span class="p">}</span>
+<span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td><td class="code"><pre><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span><span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="nx">from</span> <span class="s1">'react'</span><span class="p">;</span>
+<span class="kr">const</span> <span class="nx">Component</span> <span class="o">=</span><span class="nx">React</span><span class="p">.</span><span class="nx">Component</span><span class="p">;</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span><span class="nx">Component</span><span class="p">,</span> <span class="nx">PropTypes</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">'react'</span><span class="p">;</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>ES7 中在构造函数（constructor）下的属性初始化操作中的this指向的是类的实例，所以初始状态（initial state）可以通过this.prop（即传入的参数）来设定。</p>
+
+<h3 id="arrow-function">箭头函数（Arrow function）</h3>
+
+<p>React.createClass方法在你的组件上做了一些额外的绑定工作，以确保在组件实实例的方法内部，this指向的是组件实例自身。</p>
+
+<p>ES6+ 的语法定义类的时候没有采用React.createClass的方式，所以不得不手动来绑定这些方法中this的指向：</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td><td class="code"><pre><span class="nx">constructor</span><span class="p">(</span><span class="nx">props</span><span class="p">)</span> <span class="p">{</span>
+<span class="err">    </span><span class="kr">super</span><span class="p">(</span><span class="nx">props</span><span class="p">);</span>
+<span class="err">    </span><span class="c1">// Manually bind this method to the component instance...</span>
+<span class="err">    </span><span class="k">this</span><span class="p">.</span><span class="nx">handleOptionsButtonClick</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">handleOptionsButtonClick</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+<span class="err">  </span><span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>通过 ES6+ 的箭头函数（ Arrow functions ）和属性初始化（ property initializers ）这两个特性使得把函数的this指向绑定为组件的实例变得非常的简单：</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5</pre></td><td class="code"><pre><span class="kr">class</span> <span class="nx">PostInfo</span> <span class="kr">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">handleOptionsButtonClick</span> <span class="o">=</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span><span class="na">showOptionsModal</span><span class="p">:</span> <span class="kc">true</span><span class="p">});</span>
+  <span class="p">}</span>
+<span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<p>函数体内的this对象，绑定定义时所在的对象，而不是使用时所在的对象。而恰好属性初始化（ property initializers ）刚好在这个作用域内。</p>
+
+<h3 id="section">动态属性名 &amp; 字符串模板</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7</pre></td><td class="code"><pre><span class="kr">class</span> <span class="nx">Form</span> <span class="kr">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">onChange</span><span class="p">(</span><span class="nx">inputName</span><span class="p">,</span> <span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">setState</span><span class="p">({</span>
+      <span class="p">[</span><span class="err">`</span><span class="nx">$</span><span class="p">{</span><span class="nx">inputName</span><span class="p">}</span><span class="nx">Value</span><span class="err">`</span><span class="p">]</span><span class="err">:</span> <span class="nx">e</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">value</span><span class="p">,</span>
+    <span class="p">});</span>
+  <span class="p">}</span>
+<span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+
+<h3 id="section-1">析构 &amp; 扩展运算符</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15</pre></td><td class="code"><pre><span class="kr">class</span> <span class="nx">AutoloadingPostsGrid</span> <span class="kr">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="p">{</span>
+      <span class="nx">className</span><span class="p">,</span>
+      <span class="p">...</span><span class="nx">others</span><span class="p">,</span>  
+      <span class="c1">// contains all properties of this.props except for className</span>
+    <span class="p">}</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">;</span>
+    <span class="k">return</span> <span class="p">(</span>
+      <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">className</span><span class="o">=</span><span class="p">{</span><span class="nx">className</span><span class="p">}</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">PostsGrid</span> <span class="p">{...</span><span class="nx">others</span><span class="p">}</span> <span class="sr">/</span><span class="err">&gt;
+</span>        <span class="o">&lt;</span><span class="nx">button</span> <span class="nx">onClick</span><span class="o">=</span><span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">handleLoadMoreClick</span><span class="p">}</span><span class="o">&gt;</span><span class="nx">Load</span> <span class="nx">more</span><span class="o">&lt;</span><span class="sr">/button</span><span class="err">&gt;
+</span>      <span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span>    <span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
+

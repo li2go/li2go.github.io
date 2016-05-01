@@ -7,12 +7,16 @@
 
 # Site settings
 title: li2go
-email: adminl@diaofly.com
+email: admin@diaofly.com
 description: just simple blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://diaofly.com" # the base hostname & protocol for your site
 twitter_username: li2go
 github_username:  li2go
+post_title: Articles
 
 # Build settings
 markdown: kramdown
+
+#own verbs
+

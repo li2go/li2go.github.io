@@ -5,8 +5,7 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
-  padding: 0;
-  text-shadow: rgba(10, 11, 11, 0.47) 0 0 1px; }
+  padding: 0; }
 
 /**
  * Basic styling
@@ -150,15 +149,9 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 100px;
-  background-image: url(../img/bg1.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  position: relative;
-  transition: background-size 30s;
-  animation: magic 30s ease-in-out infinite; }
+  position: relative; }
 
 @keyframes magic {
   0% {
@@ -232,7 +225,7 @@ pre {
 .site-footer {
   border-radius: 2px;
   border-top: 1px solid #e8e8e8;
-  background-color: #1ABEE7;
+  background-color: #101010;
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -489,3 +482,10 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.post-excerpt {
+  color: #828282; }
+
+.page-heading {
+  color: #030303;
+  padding: 0.5rem 1rem; }

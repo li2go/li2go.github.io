@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>微信Audio元素的正确打开方式</title>
-  <meta name="description" content="实际上并没有找到正确的打开方式。为了业务需求做了音乐的与加载，使用preload，使用new Audio来预加载音乐。然而canpaly canplaythrough 并不会被触发。。">
+  <title>post</title>
+  <meta name="description" content="just simple blog.">
 <script type='text/javascript'>
       var _vds = _vds || [];
       window._vds = _vds;
@@ -24,7 +24,7 @@
       })();
   </script>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://diaofly.com/2016/03/04/%E5%BE%AE%E4%BF%A1Audio%E5%85%83%E7%B4%A0%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F.html">
+  <link rel="canonical" href="http://diaofly.com/post/">
   <link rel="alternate" type="application/rss+xml" title="li2go" href="http://diaofly.com/feed.xml">
 </head>
 
@@ -69,94 +69,24 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">微信Audio元素的正确打开方式</h1>
-    <p class="post-meta"><time datetime="2016-03-04T00:00:00+08:00" itemprop="datePublished">Mar 4, 2016</time></p>
-    <a href="javascript:history.back()"><</a>
+    <h1 class="post-title">post</h1>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    <p>实际上并没有找到正确的打开方式。
-为了业务需求做了音乐的与加载，使用preload，使用new Audio来预加载音乐。
-然而canpaly canplaythrough 并不会被触发。。</p>
-
-<p>这是一件相当蛋疼的事情的啊。</p>
-
-<p>因为之前还用new Image来预加载了图片，图片刷刷刷的带着单个进度变化的回调函数兴高采烈的来更新组件的state，满怀着希望看它从一个小小的0成长到骄傲的100，这个时候我们的onPictureAllLoad触发，之前给它安排的loadMusic任务便要开始了。
- 我说你自觉啊。你怎么不自觉呢。你怎么上了微信就不行了了呢。</p>
-
-<p>audio不能complete，不能canplay，不能canplaythrough。我他丫的给你降低了这么多标准，，不能忍下去了。</p>
-
-<p>我说啊。你这个狗肉不上席的家伙。在自家的chrome上生龙活虎的，一上微信就不行了啊。</p>
-
-<p>然而，二狗并不会放弃你。</p>
-
-<p>二狗想起了一个难以理解的老女人。
- 当他以各种各样的方法去靠近她理解她，都不得解。</p>
-
-<p>是谁更厌烦呢。</p>
-
-<p>当我在费劲千辛万苦在调试一个bug的时候，谁更烦一些呢。</p>
-
-<p>如果程序有生命的话，真是很难想到答案。。</p>
-
-<p>我是拒绝的。</p>
-
-<p>我说我们谈谈。</p>
-
-<p>我就像静静的看着你。</p>
-
-<p>function debugAudio(url) {
-    var music = new Audio();
-    music.id = ‘audio’;
-    music.src = url;
-    music.setAttribute(‘preload’, ‘preload’);
-    music.setAttribute(‘loop’, ‘loop’);
-    document.getElementById(“main”).appendChild(music);
-    var eventsData = {
-        abort: “当音频/视频的加载已放弃时”,
-        canplay: “当浏览器可以播放音频/视频时”,
-        canplaythrough: “当浏览器可在不因缓冲而停顿的情况下进行播放时”,
-        durationchange: “当音频/视频的时长已更改时”,
-        emptied: “当目前的播放列表为空时”,
-        ended: “当目前的播放列表已结束时”,
-        error: “当在音频/视频加载期间发生错误时”,
-        loadeddata: “当浏览器已加载音频/视频的当前帧时”,
-        loadedmetadata: “当浏览器已加载音频/视频的元数据时”,
-        loadstart: “当浏览器开始查找音频/视频时”,
-        pause: “当音频/视频已暂停时”,
-        play: “当音频/视频已开始或不再暂停时”,
-        playing: “当音频/视频在已因缓冲而暂停或停止后已就绪时”,
-        progress: “当浏览器正在下载音频/视频时”,
-        ratechange: “当音频/视频的播放速度已更改时”,
-        seeking: “当用户开始移动/跳跃到音频/视频中的新位置时”,
-        stalled: “当浏览器尝试获取媒体数据，但数据不可用时”
-    };
-    var audioEvents = Object.keys(eventsData);
-    audioEvents.map(function (e) {
-        music.addEventListener(e, function () {
-            console.log(e, eventsData[e])
-        })
-    });
-  }</p>
-
-<p>debugAudio(music_url);</p>
-
-<p>0.0</p>
-
-<p>当我写完这段让我妄图看清你的代码，你却变了。你彻底变了。</p>
-
-<p>你不再是那个沉默寡言的你了。</p>
-
-<p>the end。</p>
+  <div class="post-content">
+    <p><a href="https://github.com/li2go">
+<span class="icon icon--github"><svg viewbox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path></svg>
+</span>
+<span class="username">li2go</span>
+</a>
+ /
+<a href="https://github.com/li2go">li2go</a></p>
 
 
   </div>
-<script>
-document.querySelector('.post-title').scrollIntoView()
-</script>
+
 </article>
 
       </div>

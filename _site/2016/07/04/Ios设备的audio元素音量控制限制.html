@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Ios设备的audio元素音量控制限制</title>
-  <meta name="description" content="Volume Control in JavaScriptOn the desktop, you can set and read the volume property of an  or  element. This allows you to set the element’s audio volume re...">
+  <meta name="description" content="Volume Control in JavaScriptOn the desktop, you can set and read the volume property of an audio element. This allows you to set the element’s audio volume r...">
 <script type='text/javascript'>
       var _vds = _vds || [];
       window._vds = _vds;
@@ -86,27 +86,22 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Volume Control in JavaScript
-On the desktop, you can set and read the volume property of an <audio> or <video> element. 
-This allows you to set the element’s audio volume relative to the computer’s current volume setting.
- A value of 1 plays sound at the normal level. A value of 0 silences the audio. Values between 0 and 1 attenuate the audio.
-This volume adjustment can be useful, because it allows the user to mute a game, for example, while still listening to music on the computer.
-On iOS devices, the audio level is always under the user’s physical control. The volume property is not settable in JavaScript. Reading the volume property always returns 1.</video></audio></p>
+    <p>Volume Control in JavaScriptOn the desktop, you can set and read the volume property of an <code class="highlighter-rouge">audio</code> element. This allows you to set the element’s <code class="highlighter-rouge">audio</code> volume relative to the computer’s current volume setting. A value of 1 plays sound at the normal level. A value of 0 silences the <code class="highlighter-rouge">audio</code>.Values between 0 and 1 attenuate the <code class="highlighter-rouge">audio</code>.This volume adjustment can be useful, because it allows the user to mute a game, for example, while still listening to music on the computer.On iOS devices, the <code class="highlighter-rouge">audio</code> level is always under the user’s physical control. The volume property is not settable in JavaScript. Reading the volume property always returns 1.</p>
 
 <p>来自于官网的说明。</p>
 
-<p>你不能使用javascript来控制ios移动设备Audio元素的音量，只有使用物理方式。</p>
+<p>你不能使用javascript来控制ios移动设备<code class="highlighter-rouge">Audio</code>元素的音量，只有使用物理方式。</p>
 
-<p>在桌面端，audio元素的音量［volume］属性可写可读，这允许我们控制audio的音量，基于电脑的系统音量设定。
-正常情况下音量的值为1，使用0让audio静音。设置0-1之间的值来控制音量。
+<p>在桌面端，<code class="highlighter-rouge">audio</code>元素的音量［volume］属性可写可读，这允许我们控制<code class="highlighter-rouge">audio</code>的音量，基于电脑的系统音量设定。
+正常情况下音量的值为1，使用0让<code class="highlighter-rouge">audio</code>静音。设置0-1之间的值来控制音量。
 音量控制很有用，因为这可以使游戏静音，比如一边听音乐一边打游戏。
-在ios设备上，audio元素的音量级别只能在用户的物理方式下控制，音量属性［volume］是不可被javascript设置的。
+在ios设备上，<code class="highlighter-rouge">audio</code>元素的音量级别只能在用户的物理方式下控制，音量属性［volume］是不可被javascript设置的。
 volume永远为只读的，且值为1.</p>
 
 <p>测试在android设备上并未发现此种限制。</p>
 
 <p>一个需求点在于，想要在设备上实现音乐播放的淡入淡出。
-然而并没有提供简单的API去供使用，AudioContext比较复杂。
+然而并没有提供简单的API去供使用，<code class="highlighter-rouge">Audio</code>Context比较复杂。
 想到了这种interval音量衰减实现淡出。
 没戏。</p>
 

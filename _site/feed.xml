@@ -5,9 +5,39 @@
     <description>just simple blog.</description>
     <link>http://diaofly.com/</link>
     <atom:link href="http://diaofly.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Aug 2016 00:51:54 +0800</pubDate>
-    <lastBuildDate>Thu, 04 Aug 2016 00:51:54 +0800</lastBuildDate>
+    <pubDate>Thu, 04 Aug 2016 01:23:53 +0800</pubDate>
+    <lastBuildDate>Thu, 04 Aug 2016 01:23:53 +0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Ios设备的audio元素音量控制限制</title>
+        <description>&lt;p&gt;Volume Control in JavaScriptOn the desktop, you can set and read the volume property of an &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt; element. This allows you to set the element’s &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt; volume relative to the computer’s current volume setting. A value of 1 plays sound at the normal level. A value of 0 silences the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt;.Values between 0 and 1 attenuate the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt;.This volume adjustment can be useful, because it allows the user to mute a game, for example, while still listening to music on the computer.On iOS devices, the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt; level is always under the user’s physical control. The volume property is not settable in JavaScript. Reading the volume property always returns 1.&lt;/p&gt;
+
+&lt;p&gt;来自于官网的说明。&lt;/p&gt;
+
+&lt;p&gt;你不能使用javascript来控制ios移动设备&lt;code class=&quot;highlighter-rouge&quot;&gt;Audio&lt;/code&gt;元素的音量，只有使用物理方式。&lt;/p&gt;
+
+&lt;p&gt;在桌面端，&lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt;元素的音量［volume］属性可写可读，这允许我们控制&lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt;的音量，基于电脑的系统音量设定。
+正常情况下音量的值为1，使用0让&lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt;静音。设置0-1之间的值来控制音量。
+音量控制很有用，因为这可以使游戏静音，比如一边听音乐一边打游戏。
+在ios设备上，&lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt;元素的音量级别只能在用户的物理方式下控制，音量属性［volume］是不可被javascript设置的。
+volume永远为只读的，且值为1.&lt;/p&gt;
+
+&lt;p&gt;测试在android设备上并未发现此种限制。&lt;/p&gt;
+
+&lt;p&gt;一个需求点在于，想要在设备上实现音乐播放的淡入淡出。
+然而并没有提供简单的API去供使用，&lt;code class=&quot;highlighter-rouge&quot;&gt;Audio&lt;/code&gt;Context比较复杂。
+想到了这种interval音量衰减实现淡出。
+没戏。&lt;/p&gt;
+
+&lt;p&gt;😄&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Jul 2016 01:54:25 +0800</pubDate>
+        <link>http://diaofly.com/2016/07/04/Ios%E8%AE%BE%E5%A4%87%E7%9A%84audio%E5%85%83%E7%B4%A0%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E9%99%90%E5%88%B6.html</link>
+        <guid isPermaLink="true">http://diaofly.com/2016/07/04/Ios%E8%AE%BE%E5%A4%87%E7%9A%84audio%E5%85%83%E7%B4%A0%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E9%99%90%E5%88%B6.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>History</title>

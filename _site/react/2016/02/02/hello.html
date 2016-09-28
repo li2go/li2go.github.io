@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>react es6</title>
-  <meta name="description" content="类（Class）">
+  <title>让代码写的更风骚</title>
+  <meta name="description" content="属性初始化（property initializers）">
 <script type='text/javascript'>
       var _vds = _vds || [];
       window._vds = _vds;
@@ -80,26 +80,13 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">react es6</h1>
+    <h1 class="post-title" itemprop="name headline">让代码写的更风骚</h1>
     <p class="post-meta"><time datetime="2016-02-02T01:54:25+08:00" itemprop="datePublished">Feb 2, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">li2go</span></span></p>
     <a href="javascript:history.back()"><</a>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h3 id="class">类（Class）</h3>
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2
-3
-4
-5</pre></td><td class="code"><pre><span class="kr">class</span> <span class="nx">Photo</span> <span class="kr">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
-  <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="o">&lt;</span><span class="nx">img</span> <span class="nx">alt</span><span class="o">=</span><span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">caption</span><span class="p">}</span> <span class="nx">src</span><span class="o">=</span><span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">src</span><span class="p">}</span> <span class="sr">/</span><span class="err">&gt;
-</span>  <span class="p">}</span>
-<span class="p">}</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
-
-<h3 id="property-initializers">属性初始化（property initializers）</h3>
+    <h3 id="property-initializers">属性初始化（property initializers）</h3>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
@@ -132,15 +119,10 @@
 <span class="p">}</span><span class="w">
 </span></pre></td></tr></tbody></table></code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
-2</pre></td><td class="code"><pre><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span><span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="nx">from</span> <span class="s1">'react'</span><span class="p">;</span>
-<span class="kr">const</span> <span class="nx">Component</span> <span class="o">=</span><span class="nx">React</span><span class="p">.</span><span class="nx">Component</span><span class="p">;</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
-
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td><td class="code"><pre><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span><span class="nx">Component</span><span class="p">,</span> <span class="nx">PropTypes</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">'react'</span><span class="p">;</span><span class="w">
 </span></pre></td></tr></tbody></table></code></pre></figure>
 
-<p>ES7 中在构造函数（constructor）下的属性初始化操作中的this指向的是类的实例，所以初始状态（initial state）可以通过this.prop（即传入的参数）来设定。</p>
+<p>ES7 中在构造函数（constructor）下的属性初始化操作中的this指向的是类的实例，所以初始状态（initial state）可以通过this.props（即传入的参数）来设定。</p>
 
 <h3 id="arrow-function">箭头函数（Arrow function）</h3>
 
@@ -174,7 +156,10 @@
 
 <p>函数体内的this对象，绑定定义时所在的对象，而不是使用时所在的对象。而恰好属性初始化（ property initializers ）刚好在这个作用域内。</p>
 
-<h3 id="section">动态属性名 &amp; 字符串模板</h3>
+<h3 id="section">动态属性名 &amp; 字符串模板 及其风骚的写法</h3>
+
+<p>存在一个问题就是，如果想要对表单进行校验，在输入项种，从上到下校验并提醒，
+使用数组存储的一个好处就是，可以拿去map校验。当然这种写法也可以。</p>
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2

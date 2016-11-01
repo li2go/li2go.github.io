@@ -33,22 +33,22 @@ window.addEventListener(type,handler,cap)
         window.onscroll = '';
         //window.removeEventListener('scroll', this.handler.bind(this),false)
     }
-  //添加事件监听
-function regScroll(myHandler) {
-    if (window.onscroll === null) {
-        window.onscroll = myHandler
-    } else if (typeof window.onscroll === 'function') {
-        var oldHandler = window.onscroll;
-        window.onscroll = function () {
-            myHandler();
-            oldHandler();
+      //添加事件监听
+    function regScroll(myHandler) {
+        if (window.onscroll === null) {
+            window.onscroll = myHandler
+        } else if (typeof window.onscroll === 'function') {
+            var oldHandler = window.onscroll;
+            window.onscroll = function () {
+                myHandler();
+                oldHandler();
+            }
         }
     }
-}
-//删除所有事件监听
-function removeScrollHandler(){
-window.onscroll=''
-}
+    //删除所有事件监听
+    function removeScrollHandler(){
+    window.onscroll=''
+    }
 
 0.0想来又何必regScroll啊。覆盖了就覆盖了啊。
  

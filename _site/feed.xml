@@ -5,9 +5,119 @@
     <description>just simple blog.</description>
     <link>http://diaofly.com/</link>
     <atom:link href="http://diaofly.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Nov 2016 12:44:07 +0800</pubDate>
-    <lastBuildDate>Tue, 01 Nov 2016 12:44:07 +0800</lastBuildDate>
+    <pubDate>Tue, 01 Nov 2016 23:19:28 +0800</pubDate>
+    <lastBuildDate>Tue, 01 Nov 2016 23:19:28 +0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>这个冬天有点冷</title>
+        <description>&lt;p&gt;身体没有以前那么好了。开始眼花，脑热。&lt;/p&gt;
+
+&lt;p&gt;白天的时候不想睁眼睛。&lt;/p&gt;
+
+&lt;p&gt;晚上的时候躺在床上，暖被我半天了才暖和。然后又被该死的闹钟叫醒。&lt;/p&gt;
+
+&lt;p&gt;好困。&lt;/p&gt;
+
+&lt;p&gt;好困。&lt;/p&gt;
+
+&lt;p&gt;好困啊。&lt;/p&gt;
+
+&lt;p&gt;工作还是那么忙。&lt;/p&gt;
+
+&lt;p&gt;白天的时候睡觉竟然流了口水出来。&lt;/p&gt;
+
+&lt;p&gt;她们都那么的嚣张跋扈。&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Nov 2016 01:54:25 +0800</pubDate>
+        <link>http://diaofly.com/%E5%85%B6%E5%AE%83/2016/11/01/%E6%83%B3%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88.html</link>
+        <guid isPermaLink="true">http://diaofly.com/%E5%85%B6%E5%AE%83/2016/11/01/%E6%83%B3%E8%AF%B4%E7%82%B9%E4%BB%80%E4%B9%88.html</guid>
+        
+        
+        <category>其它</category>
+        
+      </item>
+    
+      <item>
+        <title>“你就先照着个做吧”</title>
+        <description>&lt;p&gt;“你就先照着这个做吧，至于这个情况先不管，先做出来看看”&lt;/p&gt;
+
+&lt;h1 id=&quot;whats-the-fk-say&quot;&gt;whats the f＊＊k say&lt;/h1&gt;
+
+&lt;p&gt;whats the fuck&lt;/p&gt;
+
+&lt;p&gt;whats&lt;/p&gt;
+
+&lt;p&gt;wots&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Oct 2016 03:24:25 +0800</pubDate>
+        <link>http://diaofly.com/%E5%85%B6%E5%AE%83/2016/10/31/%E4%BD%A0%E5%B0%B1%E5%85%88%E7%85%A7%E7%9D%80%E8%BF%99%E4%B8%AA%E5%81%9A%E5%90%A7-%E8%87%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E6%83%85%E5%86%B5%E5%85%88%E4%B8%8D%E7%AE%A1-%E5%85%88%E5%81%9A%E5%87%BA%E6%9D%A5%E7%9C%8B%E7%9C%8B.html</link>
+        <guid isPermaLink="true">http://diaofly.com/%E5%85%B6%E5%AE%83/2016/10/31/%E4%BD%A0%E5%B0%B1%E5%85%88%E7%85%A7%E7%9D%80%E8%BF%99%E4%B8%AA%E5%81%9A%E5%90%A7-%E8%87%B3%E4%BA%8E%E8%BF%99%E4%B8%AA%E6%83%85%E5%86%B5%E5%85%88%E4%B8%8D%E7%AE%A1-%E5%85%88%E5%81%9A%E5%87%BA%E6%9D%A5%E7%9C%8B%E7%9C%8B.html</guid>
+        
+        
+        <category>其它</category>
+        
+      </item>
+    
+      <item>
+        <title>想说点什么</title>
+        <description>&lt;p&gt;竟然看完了fabric的中文文档，并且还封装了一些类。
+英文文档真扯。得对照源码看。妈哒，哪有那么多时间啊。
+大榴哥也不给我安排别的任务了，倒是老萝莉在我旁边老问我这问我那一惊一乍的搞得我很不好。&lt;/p&gt;
+
+&lt;p&gt;静下心来的时候还是有思路的，啪啪啪码一会儿感觉还可以。
+从服务器接入数据，然后展示数据，然后渲染。交互，输入输出。
+做的时候才知道这也不对那也不对。
+也许，是我想的太难了？&lt;/p&gt;
+
+&lt;p&gt;接下来呢？&lt;/p&gt;
+
+&lt;p&gt;拖拽置入图片的交互。&lt;/p&gt;
+
+&lt;p&gt;拖拽应用模版的交互。&lt;/p&gt;
+
+&lt;p&gt;图片在容器位置的调整。&lt;/p&gt;
+
+&lt;p&gt;图片数据的导出和还原。&lt;/p&gt;
+
+&lt;p&gt;模版的使用筛选及数据转换。&lt;/p&gt;
+
+&lt;p&gt;照片容器的删除与添加&lt;/p&gt;
+
+&lt;p&gt;饰品的添加。&lt;/p&gt;
+
+&lt;p&gt;文字的添加。&lt;/p&gt;
+
+&lt;p&gt;图片的导出与存储。&lt;/p&gt;
+
+&lt;p&gt;相册的效果预览。&lt;/p&gt;
+
+&lt;p&gt;元素的组合定位。&lt;/p&gt;
+
+&lt;p&gt;容器拖拽辅助线的算法。&lt;/p&gt;
+
+&lt;p&gt;元素复制。&lt;/p&gt;
+
+&lt;p&gt;界面缩放。&lt;/p&gt;
+
+&lt;p&gt;历史栈管理。&lt;/p&gt;
+
+&lt;p&gt;数据的用户定制。&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;呃。。。。。&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 31 Oct 2016 03:24:25 +0800</pubDate>
+        <link>http://diaofly.com/%E5%85%B6%E5%AE%83/2016/10/31/%E8%BF%99%E4%B8%AA%E5%86%AC%E5%A4%A9%E6%9C%89%E7%82%B9%E5%86%B7.html</link>
+        <guid isPermaLink="true">http://diaofly.com/%E5%85%B6%E5%AE%83/2016/10/31/%E8%BF%99%E4%B8%AA%E5%86%AC%E5%A4%A9%E6%9C%89%E7%82%B9%E5%86%B7.html</guid>
+        
+        
+        <category>其它</category>
+        
+      </item>
     
       <item>
         <title>0.0</title>
@@ -65,7 +175,16 @@
     
       <item>
         <title>Ios设备的audio元素音量控制限制</title>
-        <description>&lt;p&gt;Volume Control in JavaScriptOn the desktop, you can set and read the volume property of an &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt; element. This allows you to set the element’s &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt; volume relative to the computer’s current volume setting. A value of 1 plays sound at the normal level. A value of 0 silences the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt;.Values between 0 and 1 attenuate the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt;.This volume adjustment can be useful, because it allows the user to mute a game, for example, while still listening to music on the computer.On iOS devices, the &lt;code class=&quot;highlighter-rouge&quot;&gt;audio&lt;/code&gt; level is always under the user’s physical control. The volume property is not settable in JavaScript. Reading the volume property always returns 1.&lt;/p&gt;
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Volume Control in JavaScriptOn the desktop, you can set and read the volume property of an `audio` element. 
+This allows you to set the element’s `audio` volume relative to the computer’s current volume setting.
+A value of 1 plays sound at the normal level. A value of 0 silences the `audio`.
+Values between 0 and 1 attenuate the `audio`.
+ This volume adjustment can be useful, because it allows the user to mute a game,
+for example, while still listening to music on the computer.On iOS devices, 
+the `audio` level is always under the user’s physical control. The volume property is not settable in JavaScript. 
+Reading the volume property always returns 1.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;来自于官网的说明。&lt;/p&gt;
 
@@ -141,31 +260,31 @@ volume永远为只读的，且值为1.&lt;/p&gt;
 
 &lt;p&gt;我就像静静的看着你。&lt;/p&gt;
 
-&lt;p&gt;function debugAudio(url) {
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; function debugAudio(url) {
     var music = new Audio();
-    music.id = ‘audio’;
+    music.id = &#39;audio&#39;;
     music.src = url;
-    music.setAttribute(‘preload’, ‘preload’);
-    music.setAttribute(‘loop’, ‘loop’);
-    document.getElementById(“main”).appendChild(music);
+    music.setAttribute(&#39;preload&#39;, &#39;preload&#39;);
+    music.setAttribute(&#39;loop&#39;, &#39;loop&#39;);
+    document.getElementById(&quot;main&quot;).appendChild(music);
     var eventsData = {
-        abort: “当音频/视频的加载已放弃时”,
-        canplay: “当浏览器可以播放音频/视频时”,
-        canplaythrough: “当浏览器可在不因缓冲而停顿的情况下进行播放时”,
-        durationchange: “当音频/视频的时长已更改时”,
-        emptied: “当目前的播放列表为空时”,
-        ended: “当目前的播放列表已结束时”,
-        error: “当在音频/视频加载期间发生错误时”,
-        loadeddata: “当浏览器已加载音频/视频的当前帧时”,
-        loadedmetadata: “当浏览器已加载音频/视频的元数据时”,
-        loadstart: “当浏览器开始查找音频/视频时”,
-        pause: “当音频/视频已暂停时”,
-        play: “当音频/视频已开始或不再暂停时”,
-        playing: “当音频/视频在已因缓冲而暂停或停止后已就绪时”,
-        progress: “当浏览器正在下载音频/视频时”,
-        ratechange: “当音频/视频的播放速度已更改时”,
-        seeking: “当用户开始移动/跳跃到音频/视频中的新位置时”,
-        stalled: “当浏览器尝试获取媒体数据，但数据不可用时”
+        abort: &quot;当音频/视频的加载已放弃时&quot;,
+        canplay: &quot;当浏览器可以播放音频/视频时&quot;,
+        canplaythrough: &quot;当浏览器可在不因缓冲而停顿的情况下进行播放时&quot;,
+        durationchange: &quot;当音频/视频的时长已更改时&quot;,
+        emptied: &quot;当目前的播放列表为空时&quot;,
+        ended: &quot;当目前的播放列表已结束时&quot;,
+        error: &quot;当在音频/视频加载期间发生错误时&quot;,
+        loadeddata: &quot;当浏览器已加载音频/视频的当前帧时&quot;,
+        loadedmetadata: &quot;当浏览器已加载音频/视频的元数据时&quot;,
+        loadstart: &quot;当浏览器开始查找音频/视频时&quot;,
+        pause: &quot;当音频/视频已暂停时&quot;,
+        play: &quot;当音频/视频已开始或不再暂停时&quot;,
+        playing: &quot;当音频/视频在已因缓冲而暂停或停止后已就绪时&quot;,
+        progress: &quot;当浏览器正在下载音频/视频时&quot;,
+        ratechange: &quot;当音频/视频的播放速度已更改时&quot;,
+        seeking: &quot;当用户开始移动/跳跃到音频/视频中的新位置时&quot;,
+        stalled: &quot;当浏览器尝试获取媒体数据，但数据不可用时&quot;
     };
     var audioEvents = Object.keys(eventsData);
     audioEvents.map(function (e) {
@@ -173,9 +292,11 @@ volume永远为只读的，且值为1.&lt;/p&gt;
             console.log(e, eventsData[e])
         })
     });
-  }&lt;/p&gt;
-
-&lt;p&gt;debugAudio(music_url);&lt;/p&gt;
+  }
+  
+debugAudio(music_url);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;0.0&lt;/p&gt;
 
@@ -219,16 +340,23 @@ window.addEventListener(type,handler,cap)
 componentWillUnmount() {
     window.onscroll = &#39;&#39;;
     //window.removeEventListener(&#39;scroll&#39;, this.handler.bind(this),false)
-}   //添加事件监听 function regScroll(myHandler) {
-if (window.onscroll === null) {
-    window.onscroll = myHandler
-} else if (typeof window.onscroll === &#39;function&#39;) {
-    var oldHandler = window.onscroll;
-    window.onscroll = function () {
-        myHandler();
-        oldHandler();
+}
+  //添加事件监听
+function regScroll(myHandler) {
+    if (window.onscroll === null) {
+        window.onscroll = myHandler
+    } else if (typeof window.onscroll === &#39;function&#39;) {
+        var oldHandler = window.onscroll;
+        window.onscroll = function () {
+            myHandler();
+            oldHandler();
+        }
     }
-} } //删除所有事件监听 function removeScrollHandler(){ window.onscroll=&#39;&#39; }
+}
+//删除所有事件监听
+function removeScrollHandler(){
+window.onscroll=&#39;&#39;
+}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -276,306 +404,6 @@ if (window.onscroll === null) {
         
         
         <category>生活</category>
-        
-      </item>
-    
-      <item>
-        <title>让代码写的更风骚</title>
-        <description>&lt;h3 id=&quot;property-initializers&quot;&gt;属性初始化（property initializers）&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Video&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kr&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;defaultProps&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;autoPlay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;maxLoops&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;kr&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;propTypes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;autoPlay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bool&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isRequired&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;maxLoops&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isRequired&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;posterFrameSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isRequired&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;videoSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isRequired&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;loopsRemaining&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;maxLoops&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PropTypes&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;react&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;ES7 中在构造函数（constructor）下的属性初始化操作中的this指向的是类的实例，所以初始状态（initial state）可以通过this.props（即传入的参数）来设定。&lt;/p&gt;
-
-&lt;h3 id=&quot;arrow-function&quot;&gt;箭头函数（Arrow function）&lt;/h3&gt;
-
-&lt;p&gt;React.createClass方法在你的组件上做了一些额外的绑定工作，以确保在组件实实例的方法内部，this指向的是组件实例自身。&lt;/p&gt;
-
-&lt;p&gt;ES6+ 的语法定义类的时候没有采用React.createClass的方式，所以不得不手动来绑定这些方法中this的指向：&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nx&quot;&gt;constructor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// Manually bind this method to the component instance...&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handleOptionsButtonClick&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handleOptionsButtonClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bind&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;通过 ES6+ 的箭头函数（ Arrow functions ）和属性初始化（ property initializers ）这两个特性使得把函数的this指向绑定为组件的实例变得非常的简单：&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PostInfo&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;handleOptionsButtonClick&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;showOptionsModal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;函数体内的this对象，绑定定义时所在的对象，而不是使用时所在的对象。而恰好属性初始化（ property initializers ）刚好在这个作用域内。&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;动态属性名 &amp;amp; 字符串模板 及其风骚的写法&lt;/h3&gt;
-
-&lt;p&gt;存在一个问题就是，如果想要对表单进行校验，在输入项种，从上到下校验并提醒，
-使用数组存储的一个好处就是，可以拿去map校验。当然这种写法也可以。&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Form&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;onChange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;inputName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;inputName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;析构 &amp;amp; 扩展运算符&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kr&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;AutoloadingPostsGrid&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Component&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;nx&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;others&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  
-      &lt;span class=&quot;c1&quot;&gt;// contains all properties of this.props except for className&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-      &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PostsGrid&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;others&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;        &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handleLoadMoreClick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Load&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;more&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/button&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;      &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Tue, 02 Feb 2016 01:54:25 +0800</pubDate>
-        <link>http://diaofly.com/react/2016/02/02/hello.html</link>
-        <guid isPermaLink="true">http://diaofly.com/react/2016/02/02/hello.html</guid>
-        
-        
-        <category>react</category>
-        
-      </item>
-    
-      <item>
-        <title>Tappable Pinch</title>
-        <description>&lt;h4 id=&quot;the-pinch-implementation-has-not-been-thoroughly-tested&quot;&gt;1.	The pinch implementation has not been thoroughly tested&lt;/h4&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	pinch功能没有被完全的测试。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;any-touch-event-with-3-three-or-more-touches-is-completely-ignored&quot;&gt;Any touch event with 3 three or more touches is completely ignored.&lt;/h4&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	超出三个触点的触摸将被忽略。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;properties&quot;&gt;Properties	|	属性&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;activeDelay&lt;/code&gt; ms delay before the -active class is added, defaults to 0&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;标记触发状态的延时时长，默认为0毫秒。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;component&lt;/code&gt; component to render, defaults to ‘span’&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;要渲染的组件类型。默认为span。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;classes&lt;/code&gt; optional object containing active and inactive class names to apply to the component; useful with css-modules&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;用css-modules时，用来定义样式的属性标识。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;classBase&lt;/code&gt; base to use for the active/inactive classes&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;css类名的base。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;className&lt;/code&gt; optional class name for the component&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;组件的classname
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;moveThreshold&lt;/code&gt; px to allow movement before cancelling a tap; defaults to 100&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tap事件判定时间下限。默认0.1秒。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pressDelay&lt;/code&gt; ms delay before a press event is detected, defaults to 1000&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;press事件判定的事件下限。默认1秒。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pressMoveThreshold&lt;/code&gt; px to allow movement before ignoring long presses; defaults to 5&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;长按状态允许触点移动的范围偏差5像素。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;preventDefault&lt;/code&gt; (boolean) automatically call preventDefault on all events&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;自动阻止所有默认事件。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;stopPropagation&lt;/code&gt; (boolean) automatically call stopPropagation on all events&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;自动停止事件冒泡。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;style&lt;/code&gt; (object) styles to apply to the component&lt;/p&gt;
-
-&lt;h2 id=&quot;pinch-events&quot;&gt;Pinch Events｜触摸控制：&lt;/h2&gt;
-
-&lt;p&gt;Pinch events come with a special object with additional data to actually be more useful than the native events:&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;touches&lt;/code&gt;: Array of Objects - {identifier, pageX, pageY} - raw data from the event&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;触摸位置坐标和标识符（编号）组成的数组。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;center&lt;/code&gt;: Object - {x, y} - Calculated center between the two touch points&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;触摸两点间的中点坐标。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;angle&lt;/code&gt;: Degrees - angle of the line connecting the two touch points to the X-axis&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;触摸两点连线与X轴形成的夹角。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;distance&lt;/code&gt;: Number of pixels - beween the two touch points&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;触摸两点之间的间距。 -----------------
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;displacement&lt;/code&gt;: Object {x, y} - offset of the center since the pinch began&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;双指触摸位置连线的中点在触摸过程中偏离原来位置的像素值(中心点偏移量) -----------------
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;displacementVelocity&lt;/code&gt;: Object {x, y} : Pixels/ms - Immediate velocity of the displacement&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;偏移速度。单位：像素／毫秒
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rotation&lt;/code&gt;: degrees - delta rotation since the beginning of the gesture&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; 从手势开始时的旋转角度。 -----------------
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rotationVelocity&lt;/code&gt;: degrees/millisecond - immediate rotational velocity&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;角度旋转速度。单位：度／毫秒。 -----------------
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;zoom&lt;/code&gt;: Number - Zoom factor - ratio between distance between the two touch points now over initial&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;缩放系数。比起两点原来间距，缩放改变的倍数。 -----------------
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;zoomVelocity&lt;/code&gt;: zoomFactor/millisecond - immediate velocity of zooming&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;缩放速度。单位：缩放因子／毫秒。 -----------------
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;time&lt;/code&gt;: milliseconds since epoch - Timestamp&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;经历的时间长度。
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Tue, 02 Feb 2016 00:00:00 +0800</pubDate>
-        <link>http://diaofly.com/react/2016/02/02/Tappable-Pinch.html</link>
-        <guid isPermaLink="true">http://diaofly.com/react/2016/02/02/Tappable-Pinch.html</guid>
-        
-        
-        <category>react</category>
         
       </item>
     

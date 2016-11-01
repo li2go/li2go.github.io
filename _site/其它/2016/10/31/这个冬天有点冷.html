@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Ios设备的audio元素音量控制限制</title>
-  <meta name="description" content="Volume Control in JavaScriptOn the desktop, you can set and read the volume property of an `audio` element. This allows you to set the element’s `audio` volu...">
+  <title>想说点什么</title>
+  <meta name="description" content="竟然看完了fabric的中文文档，并且还封装了一些类。英文文档真扯。得对照源码看。妈哒，哪有那么多时间啊。大榴哥也不给我安排别的任务了，倒是老萝莉在我旁边老问我这问我那一惊一乍的搞得我很不好。">
 <script type='text/javascript'>
       var _vds = _vds || [];
       window._vds = _vds;
@@ -25,7 +25,7 @@
   </script>
   <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/animate.min.css">
-  <link rel="canonical" href="http://diaofly.com/2016/07/04/Ios%E8%AE%BE%E5%A4%87%E7%9A%84audio%E5%85%83%E7%B4%A0%E9%9F%B3%E9%87%8F%E6%8E%A7%E5%88%B6%E9%99%90%E5%88%B6.html">
+  <link rel="canonical" href="http://diaofly.com/%E5%85%B6%E5%AE%83/2016/10/31/%E8%BF%99%E4%B8%AA%E5%86%AC%E5%A4%A9%E6%9C%89%E7%82%B9%E5%86%B7.html">
   <link rel="alternate" type="application/rss+xml" title="li2go" href="http://diaofly.com/feed.xml">
 </head>
 
@@ -80,41 +80,59 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Ios设备的audio元素音量控制限制</h1>
-    <p class="post-meta"><time datetime="2016-07-04T01:54:25+08:00" itemprop="datePublished">Jul 4, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">想说点什么</h1>
+    <p class="post-meta"><time datetime="2016-10-31T03:24:25+08:00" itemprop="datePublished">Oct 31, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">li2go</span></span></p>
     <a href="javascript:history.back()"><</a>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <div class="highlighter-rouge"><pre class="highlight"><code>Volume Control in JavaScriptOn the desktop, you can set and read the volume property of an `audio` element. 
-This allows you to set the element’s `audio` volume relative to the computer’s current volume setting.
-A value of 1 plays sound at the normal level. A value of 0 silences the `audio`.
-Values between 0 and 1 attenuate the `audio`.
- This volume adjustment can be useful, because it allows the user to mute a game,
-for example, while still listening to music on the computer.On iOS devices, 
-the `audio` level is always under the user’s physical control. The volume property is not settable in JavaScript. 
-Reading the volume property always returns 1.
-</code></pre>
-</div>
+    <p>竟然看完了fabric的中文文档，并且还封装了一些类。
+英文文档真扯。得对照源码看。妈哒，哪有那么多时间啊。
+大榴哥也不给我安排别的任务了，倒是老萝莉在我旁边老问我这问我那一惊一乍的搞得我很不好。</p>
 
-<p>来自于官网的说明。</p>
+<p>静下心来的时候还是有思路的，啪啪啪码一会儿感觉还可以。
+从服务器接入数据，然后展示数据，然后渲染。交互，输入输出。
+做的时候才知道这也不对那也不对。
+也许，是我想的太难了？</p>
 
-<p>你不能使用javascript来控制ios移动设备<code class="highlighter-rouge">Audio</code>元素的音量，只有使用物理方式。</p>
+<p>接下来呢？</p>
 
-<p>在桌面端，<code class="highlighter-rouge">audio</code>元素的音量［volume］属性可写可读，这允许我们控制<code class="highlighter-rouge">audio</code>的音量，基于电脑的系统音量设定。
-正常情况下音量的值为1，使用0让<code class="highlighter-rouge">audio</code>静音。设置0-1之间的值来控制音量。
-音量控制很有用，因为这可以使游戏静音，比如一边听音乐一边打游戏。
-在ios设备上，<code class="highlighter-rouge">audio</code>元素的音量级别只能在用户的物理方式下控制，音量属性［volume］是不可被javascript设置的。
-volume永远为只读的，且值为1.</p>
+<p>拖拽置入图片的交互。</p>
 
-<p>测试在android设备上并未发现此种限制。</p>
+<p>拖拽应用模版的交互。</p>
 
-<p>一个需求点在于，想要在设备上实现音乐播放的淡入淡出。
-然而并没有提供简单的API去供使用，<code class="highlighter-rouge">Audio</code>Context比较复杂。
-想到了这种interval音量衰减实现淡出。
-没戏。</p>
+<p>图片在容器位置的调整。</p>
 
-<p>😄</p>
+<p>图片数据的导出和还原。</p>
+
+<p>模版的使用筛选及数据转换。</p>
+
+<p>照片容器的删除与添加</p>
+
+<p>饰品的添加。</p>
+
+<p>文字的添加。</p>
+
+<p>图片的导出与存储。</p>
+
+<p>相册的效果预览。</p>
+
+<p>元素的组合定位。</p>
+
+<p>容器拖拽辅助线的算法。</p>
+
+<p>元素复制。</p>
+
+<p>界面缩放。</p>
+
+<p>历史栈管理。</p>
+
+<p>数据的用户定制。</p>
+
+<p>…</p>
+
+<p>呃。。。。。</p>
+
 
   </div>
 <script>

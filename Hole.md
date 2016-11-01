@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: fullPage
 title: Hole
 permalink: /hole/
 ---

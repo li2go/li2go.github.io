@@ -292,3 +292,15 @@
         }
     }
 }
+.page-list{
+    padding: 20px 10px;
+    background-color: rgba(240, 248, 255, 0.67);
+    border-radius: 5px;
+    li{
+        padding:2px;
+    }
+    .date{
+        color: gray;
+        font-size: 10px;
+    }
+}

@@ -129,14 +129,17 @@
  */
 .site-footer {
     border-radius: 2px;
-    border-top: 1px solid #e8e8e8;
+    //border-top: 1px solid #e8e8e8;
     background-color:#101010;
     position: fixed;
     bottom: 0px;
     width: 100%;
     height: 2rem;
     transition: height 0.26s;
+    transition-delay:0.26s;
+    transition-timing-function:ease-out;
     color:white;
+    z-index: 9;
 }
 .site-footer:hover{
     height:6rem;
@@ -250,7 +253,7 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 20px;
     letter-spacing: -1px;
     line-height: 1;
 

@@ -14,7 +14,10 @@ url: "http://diaofly.com" # the base hostname & protocol for your site
 twitter_username: li2go
 github_username:  li2go
 post_title: Articles
-
+comments:
+  provider: duoshuo
+  duoshuo:
+    short_name: diaofly
 # Build settings
 markdown: kramdown
 

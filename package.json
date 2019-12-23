@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "jekyll serve"
+  },
+  "name": "li2go.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/li2go/li2go.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/li2go/li2go.github.io/issues"
+  },
+  "homepage": "https://github.com/li2go/li2go.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "jekyll": "^3.0.0-beta1"
+  }
+}

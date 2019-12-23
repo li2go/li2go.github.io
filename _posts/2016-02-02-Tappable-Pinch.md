@@ -7,15 +7,14 @@ tags: []
 published: true
 
 ---
-####1.	The pinch implementation has not been thoroughly tested
+#### The pinch implementation has not been thoroughly tested
 
 		pinch功能没有被完全的测试。
 
-####Any touch event with 3 three or more touches is completely ignored.
-		超出三个触点的触摸将被忽略。
+#### Any touch event with 3 three or more touches is completely ignored.
+​		超出三个触点的触摸将被忽略。
 
-
-##Properties	|	属性
+## Properties	|	属性
 
 `activeDelay` ms delay before the -active class is added, defaults to 0
 	
@@ -47,7 +46,7 @@ published: true
 `pressDelay` ms delay before a press event is detected, defaults to 1000
 
 	press事件判定的事件下限。默认1秒。
-		
+
 `pressMoveThreshold` px to allow movement before ignoring long presses; defaults to 5
 
 	长按状态允许触点移动的范围偏差5像素。
@@ -56,14 +55,14 @@ published: true
 `preventDefault` (boolean) automatically call preventDefault on all events
 
 	自动阻止所有默认事件。
-	
+
 `stopPropagation` (boolean) automatically call stopPropagation on all events
 
 	自动停止事件冒泡。
 
 `style` (object) styles to apply to the component
 
-##Pinch Events｜触摸控制：
+## Pinch Events｜触摸控制：
 
 
 Pinch events come with a special object with additional data to actually be more useful than the native events:

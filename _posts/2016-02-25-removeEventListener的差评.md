@@ -28,7 +28,7 @@ window.addEventListener(type,handler,cap)
         regScroll(this.handler.bind(this));
         //window.addEventListener('scroll', this.handler.bind(this),false)
     }
-  
+      
     componentWillUnmount() {
         window.onscroll = '';
         //window.removeEventListener('scroll', this.handler.bind(this),false)
@@ -51,9 +51,9 @@ window.addEventListener(type,handler,cap)
     }
 
 0.0想来又何必regScroll啊。覆盖了就覆盖了啊。
- 
+
  既然这样又不能清除自己绑定的事件。啪，一下把原来的都弄没了。
- 
+
 
 regScroll何苦，
 
@@ -64,3 +64,40 @@ regScroll何苦，
 －。－
 
 蛤蛤。
+
+
+
+
+
+
+
+-------
+
+
+
+
+
+
+
+``` javascript
+constructor(props){
+    super(props)
+    this.handler=this.handler.bind(this)
+}
+componentDidMount() {
+	window.addEventListener('scroll', this.handler,false)
+}
+  
+componentWillUnmount() {
+    window.removeEventListener('scroll', this.handler,false)
+}
+```
+
+-----------
+
+
+
+2019-12-24
+
+不是坑，是自己太菜了，这么简单的道理都没弄明白。
+
